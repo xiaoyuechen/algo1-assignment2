@@ -3,6 +3,10 @@ import array
 import sys
 
 import time #import time to calculate running time
+import insertion
+import heap
+import quicksort
+import rangen
 
 # Bubble Sort
 # This is the system's sorting algorithm that you use to compare with your result
@@ -22,46 +26,67 @@ def bubblesort(a):
                 swap(a, i, i+1)
                 sorted = False
 
+def gen_nums(arr_sizes, repeat):
+    files = [] 
+    for s in arr_sizes:
+        for i in range(repeat):
+            name = "nums_" + str(s) + "_" + str(i) + ".txt"
+            rangen.rangen(s, name)
+            files.append(name)
+    return files
+
+kArrSizes = [50, 100, 1000, 10000, 20000]
+kRepeat = 5
 
 # This is the function to verify your implemented sorting algorithm
 # You need to change it a bit to call your sorting algorithm
 def test():
-    # check if nums.txt exists
-    if not os.path.exists('nums.txt'):
-        print("First create nums.txt")
-        sys.exit(0)
-
-    # read the content of nums.txt into an array
-    nums = open('nums.txt', 'r')
-    a = []
-    for line in nums:
-        a.append(int(str.strip(line)))
-
-    # sort the array using bubblesort and calculate running time
-    start=time.time()
-    bubblesort(a)# You need to change here to call your sorting algorithm
-    end=time.time()
-    print("Bubblesort running time:   ",end-start);
-    nums.close()
+    files = gen_nums(kArrSizes, 5)
     
-    # output nums_sorted.txt
-    nums_sorted = open('nums_sorted.txt', 'w')
-    for element in a:
-        nums_sorted.write(str(element) + "\n")
+    for file_name in files:
+        print("=================" + file_name + "=================")
+        # read the content of nums.txt into an array
+        nums = open(file_name, 'r')
+        a = []
+        for line in nums:
+            a.append(int(str.strip(line)))
+        nums.close()
+        
+        ref_name = "nums_ref_" + file_name[len("nums_"):]
+        os.system("sort -n " + file_name + "> " + ref_name)
 
-    nums.close()
-    nums_sorted.close()
+        sorting_functions = [
+            ("bubble_sort", bubblesort), 
+            ("insertion_sort", insertion.insertion_sort), 
+            ("heap_sort", heap.heap_sort), 
+            ("quick_sort", quicksort.quicksortuser),
+            ]
 
-    # compare your result (nums_sorted.txt) against the result of bubblesorting algorithm (nums_ref.txt)
-    os.system('sort -n nums.txt > nums_ref.txt')
-    ret = os.system('diff nums_sorted.txt nums_ref.txt > tmp.txt')
+        for func in sorting_functions: 
+            a_copy = a.copy()
+            # sort the array using bubblesort and calculate running time
+            start=time.time()
+            func[1](a_copy)# You need to change here to call your sorting algorithm
+            end=time.time()
+            print(func[0] + " running time:   ",end-start)
+            
+            output_file_name = "nums_" + func[0] + ".txt"
+            # output nums_sorted.txt
+            nums_sorted = open(output_file_name, 'w')
+            for element in a_copy:
+                nums_sorted.write(str(element) + "\n")
+            nums_sorted.close()
+            
+            temp_file_name = "tmp_" + func[0] + ".txt"
+            ret = os.system("diff " + output_file_name + " " + ref_name + " > " + temp_file_name)
 
-    # output result
-    if int(ret) == 0:
-        print("Sorted!")
+            # output result
+            if int(ret) == 0:
+                print("Sorted!")
 
-    if int(ret) != 0:
-        print("Not sorted!")
+            if int(ret) != 0:
+                print("Not sorted!")
+
 
 # python sort.py runs test
 if __name__ == "__main__":

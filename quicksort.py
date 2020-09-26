@@ -73,6 +73,6 @@ def test():
         print("Not sorted!")
 
 # python sort.py runs test
-if __name__ == "__main__":
-    test()
+#if __name__ == "__main__":
+    #test()
     

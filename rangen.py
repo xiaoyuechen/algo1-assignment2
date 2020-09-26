@@ -1,8 +1,8 @@
 import sys
 import random
 
-def rangen(max):
-    f = open('nums.txt', 'w')
+def rangen(max, filename = 'nums.txt'):
+    f = open(filename, 'w')
     random.seed()
 
     for i in range(0,max):
@@ -10,7 +10,8 @@ def rangen(max):
 
     f.close()
 
-if(len(sys.argv) != 2):
-    print("Wrong number of arguments. Usage: python rangen.py max")
-else:
-    rangen(int(sys.argv[1]))
+if __name__ == "__main__":
+    if(len(sys.argv) != 2):
+        print("Wrong number of arguments. Usage: python rangen.py max")
+    else:
+        rangen(int(sys.argv[1]))

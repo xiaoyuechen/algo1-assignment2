@@ -5,6 +5,7 @@ def heap_sort(a):
         swap(a, 1, n)
         n = n - 1
         max_heapify(a, 1, n)
+    a.pop(0)
 
 
 def max_heapify(a, k, n):
@@ -27,3 +28,10 @@ def build_max_heap(a, n):
 
 def swap(a, i, j):
     a[i], a[j] = a[j], a[i]
+
+
+def is_sorted(a):
+    for i in range(len(a) - 1):
+        if a[i] > a[i + 1]:
+            return False
+    return True
