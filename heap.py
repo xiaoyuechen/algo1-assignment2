@@ -5,7 +5,7 @@ def heap_sort(a):
         swap(a, 1, n)
         n = n - 1
         max_heapify(a, 1, n)
-    a.pop(0)
+    a.pop(0)  # remove dummy element
 
 
 def max_heapify(a, k, n):
@@ -21,7 +21,9 @@ def max_heapify(a, k, n):
 
 
 def build_max_heap(a, n):
+    # add dummy element to the beginning to make array indexing easier
     a.insert(0, 0)
+    # now indices of Nth node's children are 2*N and 2*N+1
     for k in range(n // 2, 0, -1):
         max_heapify(a, k, n)
 
