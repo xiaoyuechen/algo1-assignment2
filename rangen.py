@@ -1,14 +1,16 @@
 import sys
 import random
 
-def rangen(max, filename = 'nums.txt'):
+
+def rangen(max, filename='nums.txt'):
     f = open(filename, 'w')
     random.seed()
 
-    for i in range(0,max):
+    for _ in range(0, max):
         f.write(str(random.randint(0, max)) + "\n")
 
     f.close()
+
 
 if __name__ == "__main__":
     if(len(sys.argv) != 2):
