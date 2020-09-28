@@ -2,391 +2,481 @@
   "nums_1000_0": [
     {
       "sorted": true,
-      "time": 0.0878455638885498
+      "time": 0.09134888648986816,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 0.05095267295837402
+      "time": 0.04783916473388672,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.002526521682739258
+      "time": 0.0023086071014404297,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.0015339851379394531
+      "time": 0.001583099365234375,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.0019123554229736328
+      "time": 0.0018413066864013672,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.0014431476593017578
+      "time": 0.0015747547149658203,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_1000_1": [
     {
       "sorted": true,
-      "time": 0.08769607543945312
+      "time": 0.08934235572814941,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 0.0453948974609375
+      "time": 0.04930377006530762,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.002234220504760742
+      "time": 0.002278566360473633,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.0016760826110839844
+      "time": 0.0017330646514892578,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.0018339157104492188
+      "time": 0.0019137859344482422,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.0015485286712646484
+      "time": 0.0015273094177246094,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_1000_2": [
     {
       "sorted": true,
-      "time": 0.09026336669921875
+      "time": 0.08831119537353516,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 0.04765582084655762
+      "time": 0.048670053482055664,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.0022537708282470703
+      "time": 0.0023615360260009766,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.001580953598022461
+      "time": 0.001438140869140625,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.0018863677978515625
+      "time": 0.0018453598022460938,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.0014863014221191406
+      "time": 0.0014886856079101562,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_1000_3": [
     {
       "sorted": true,
-      "time": 0.08295726776123047
+      "time": 0.08806967735290527,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 0.04673314094543457
+      "time": 0.04969668388366699,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.0022852420806884766
+      "time": 0.002320528030395508,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.0015952587127685547
+      "time": 0.001466989517211914,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.0019958019256591797
+      "time": 0.0018477439880371094,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.0014858245849609375
+      "time": 0.0015141963958740234,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_1000_4": [
     {
       "sorted": true,
-      "time": 0.08370399475097656
+      "time": 0.08976483345031738,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 0.0450139045715332
+      "time": 0.04846787452697754,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.0023665428161621094
+      "time": 0.002214193344116211,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.0016217231750488281
+      "time": 0.0016720294952392578,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.001963376998901367
+      "time": 0.002138376235961914,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.0018398761749267578
+      "time": 0.0014355182647705078,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_10000_0": [
     {
       "sorted": true,
-      "time": 9.265959024429321
+      "time": 9.483323335647583,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 4.849458456039429
+      "time": 5.213117599487305,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.03333616256713867
+      "time": 0.03431820869445801,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.018617868423461914
+      "time": 0.02083134651184082,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.02350020408630371
+      "time": 0.02538299560546875,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.019134044647216797
+      "time": 0.02145838737487793,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_10000_1": [
     {
       "sorted": true,
-      "time": 9.172606229782104
+      "time": 9.9171724319458,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 4.843955039978027
+      "time": 4.982290267944336,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.031829118728637695
+      "time": 0.03153276443481445,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.02057361602783203
+      "time": 0.02019524574279785,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.024095773696899414
+      "time": 0.024336814880371094,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.019165515899658203
+      "time": 0.01800370216369629,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_10000_2": [
     {
       "sorted": true,
-      "time": 9.252396821975708
+      "time": 9.290271043777466,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 4.792847394943237
+      "time": 5.016660213470459,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.03489279747009277
+      "time": 0.0321192741394043,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.019598960876464844
+      "time": 0.01929950714111328,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.023799419403076172
+      "time": 0.02510857582092285,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.020472049713134766
+      "time": 0.019866228103637695,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_10000_3": [
     {
       "sorted": true,
-      "time": 9.222019910812378
+      "time": 9.21159839630127,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 4.831706285476685
+      "time": 4.905068397521973,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.03353285789489746
+      "time": 0.031697988510131836,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.019367218017578125
+      "time": 0.023219585418701172,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.024868488311767578
+      "time": 0.02355360984802246,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.019184112548828125
+      "time": 0.019026756286621094,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_10000_4": [
     {
       "sorted": true,
-      "time": 9.197208881378174
+      "time": 9.301311731338501,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 4.797842264175415
+      "time": 5.072342157363892,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.03336644172668457
+      "time": 0.03321528434753418,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.02263045310974121
+      "time": 0.021708011627197266,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.02591872215270996
+      "time": 0.024255752563476562,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.019242525100708008
+      "time": 0.01912236213684082,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_20000_0": [
     {
       "sorted": true,
-      "time": 37.86837983131409
+      "time": 38.05912899971008,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 20.924368381500244
+      "time": 20.583199739456177,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.07088637351989746
+      "time": 0.07289767265319824,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.04967021942138672
+      "time": 0.04465794563293457,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.049494266510009766
+      "time": 0.052481889724731445,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.04110527038574219
+      "time": 0.03974318504333496,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_20000_1": [
     {
       "sorted": true,
-      "time": 37.692516803741455
+      "time": 40.366849422454834,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 19.758841514587402
+      "time": 20.245859146118164,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.07779741287231445
+      "time": 0.07416009902954102,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.03914213180541992
+      "time": 0.043634653091430664,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.0508880615234375
+      "time": 0.05017399787902832,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.042302846908569336
+      "time": 0.03989362716674805,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_20000_2": [
     {
       "sorted": true,
-      "time": 38.01179099082947
+      "time": 37.96301984786987,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 19.474828720092773
+      "time": 20.17564821243286,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.07338786125183105
+      "time": 0.0685117244720459,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.04474067687988281
+      "time": 0.0426325798034668,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.050232887268066406
+      "time": 0.05150866508483887,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.041166067123413086
+      "time": 0.03988528251647949,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_20000_3": [
     {
       "sorted": true,
-      "time": 37.529510736465454
+      "time": 40.7431857585907,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 19.3974130153656
+      "time": 20.76559615135193,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.07133984565734863
+      "time": 0.07195711135864258,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.0412139892578125
+      "time": 0.04285264015197754,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.05450153350830078
+      "time": 0.05333852767944336,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.04227566719055176
+      "time": 0.03962993621826172,
+      "function": "quick_sort_pivot_median"
     }
   ],
   "nums_20000_4": [
     {
       "sorted": true,
-      "time": 37.466224193573
+      "time": 39.81986880302429,
+      "function": "bubble_sort"
     },
     {
       "sorted": true,
-      "time": 20.9894917011261
+      "time": 20.492746829986572,
+      "function": "insertion_sort"
     },
     {
       "sorted": true,
-      "time": 0.07728075981140137
+      "time": 0.06999492645263672,
+      "function": "heap_sort"
     },
     {
       "sorted": true,
-      "time": 0.04355025291442871
+      "time": 0.04102611541748047,
+      "function": "quick_sort"
     },
     {
       "sorted": true,
-      "time": 0.04889178276062012
+      "time": 0.054027557373046875,
+      "function": "quick_sort_pivot_rand"
     },
     {
       "sorted": true,
-      "time": 0.04064035415649414
+      "time": 0.039665937423706055,
+      "function": "quick_sort_pivot_median"
     }
   ]
 }

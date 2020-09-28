@@ -80,7 +80,9 @@ def test():
             print(name)
             print("- Sorted: " + str(result.sorted))
             print("- Time: " + str(result.time))
-            test_result[header].append(vars(result))
+            r = vars(result)
+            r["function"] = name
+            test_result[header].append(r)
 
         print()
 
