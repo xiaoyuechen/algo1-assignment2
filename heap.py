@@ -32,8 +32,6 @@ def swap(a, i, j):
     a[i], a[j] = a[j], a[i]
 
 
-def is_sorted(a):
-    for i in range(len(a) - 1):
-        if a[i] > a[i + 1]:
-            return False
-    return True
+if __name__ == "__main__":
+    import algotest
+    algotest.test(heap_sort)

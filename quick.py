@@ -54,3 +54,8 @@ def quick_sort_pivot_rand(a: list):
 
 def quick_sort_pivot_median(a: list):
     quick_sort_impl(a, 0, len(a)-1, pivot_median)
+
+
+if __name__ == "__main__":
+    import algotest
+    algotest.test(quick_sort)

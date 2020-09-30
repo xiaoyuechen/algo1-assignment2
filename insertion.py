@@ -9,3 +9,8 @@ def insertion_sort(a):
 
 def swap(a, i, j):
     a[i], a[j] = a[j], a[i]
+
+
+if __name__ == "__main__":
+    import algotest
+    algotest.test(insertion_sort)
